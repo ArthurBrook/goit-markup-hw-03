@@ -13,12 +13,23 @@ ul {
    margin: 0;
    padding-left: 0;
 }
+
+img {
+   display: block;
+}
+
 .list {
    list-style: none;
 }
 
 .link {
    text-decoration: none;
+}
+
+.container {
+   max-width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
 }
 
 :root {
