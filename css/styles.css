@@ -257,7 +257,7 @@ nav {
    color: var(--accent-color);
    background: #F4F4FD;
    padding: 12px 24px;
-   height: 48px;
+   min-height: 48px;
    border: 1px solid #E7E9FC;
    border-radius: 4px;
    cursor: pointer;
