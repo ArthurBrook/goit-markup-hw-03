@@ -5,13 +5,9 @@ body {
    background-color: var(--lite-color);
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, h6, ul, p {
    margin: 0;
-}
-
-ul {
-   margin: 0;
-   padding-left: 0;
+   padding: 0;
 }
 
 img {
@@ -91,7 +87,7 @@ nav {
 }
 
 .contact-list {
-   padding-left: 332px;
+   margin-left: 332px;
    display: flex;
    justify-content: flex-end;
    gap: 40px;
@@ -114,6 +110,7 @@ nav {
    padding-top: 188px;
    padding-bottom: 188px;
    background-color: var(--main-color);
+   text-align: center; 
 }
 
 .hero-title {
@@ -122,6 +119,7 @@ nav {
    letter-spacing: 0.02em;
    text-align: center;
    color: var(--lite-color);
+   margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -135,8 +133,8 @@ nav {
    height: 56px;
    background: #4D5AE5;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-color: transparent;
    border-radius: 4px;
-   margin-top: 48px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -149,6 +147,8 @@ nav {
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
+   text-align: center;
+   padding-bottom: 72px;
    color: var(--main-color);
 }
 
@@ -157,6 +157,7 @@ nav {
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   margin-bottom: 8px;
    color: var(--main-color);
 }
 
@@ -165,11 +166,13 @@ nav {
    letter-spacing: 0.02em;
    color: var(--minor-color);
 }
+
+
 /* Features */
+
 .features {
    padding-top: 120px;
 }
-
 
 .visually-hidden {
    position: absolute;
@@ -184,14 +187,19 @@ nav {
    margin: -1px;
 }
 
+.about-list {
+   display: flex;
+   gap: 24px;
+}
+
+.about-item {
+   width: 264px;
+}
+
+/* We do */
 .wedo {
    padding-top: 120px;
    padding-bottom: 120px;
-}
-
-.wedotitle {
-   text-align: center;
-   padding-bottom: 72px;
 }
 
 .wedo-list {
@@ -200,6 +208,8 @@ nav {
    justify-content: center;
 }
 
+
+
 /* Team */
 .team-section {
    padding-top: 120px;
@@ -207,15 +217,25 @@ nav {
    background: #F4F4FD;
 }
 
-.team {
-   text-align: center;
-   padding-bottom: 72px;
+.team-list {
+   display: flex;
+   gap: 24px;
 }
 
 .team-item {
    background: var(--lite-color);
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   border-radius: 0px 0px 4px 4px;
 }
 
+.team-description {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
 
 
 
