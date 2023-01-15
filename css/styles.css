@@ -72,11 +72,11 @@ header {
 nav {
    display: flex;
    flex-direction: row;
+   margin-right: auto;
 }
 
 .nav-list {
    display: flex;
-   flex-direction: row;
    gap: 40px;
 }
 
@@ -88,9 +88,7 @@ nav {
 }
 
 .contact-list {
-   margin-left: 332px;
    display: flex;
-   justify-content: flex-end;
    gap: 40px;
 }
 
