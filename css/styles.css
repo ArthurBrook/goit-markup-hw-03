@@ -118,7 +118,8 @@ nav {
    letter-spacing: 0.02em;
    text-align: center;
    color: var(--lite-color);
-   margin-bottom: 48px;
+   max-width: 500px;
+   margin: 0 auto;
 }
 
 .hero-btn {
@@ -134,12 +135,12 @@ nav {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-color: transparent;
    border-radius: 4px;
+   margin-top: 48px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
    background: #404BBF;
 }
-
 
 .section-title {
    font-size: 36px;
@@ -168,7 +169,6 @@ nav {
 
 
 /* Features */
-
 .features {
    padding-top: 120px;
 }
@@ -195,6 +195,7 @@ nav {
    width: 264px;
 }
 
+
 /* We do */
 .wedo {
    padding-top: 120px;
@@ -206,7 +207,6 @@ nav {
    gap: 24px;
    justify-content: center;
 }
-
 
 
 /* Team */
@@ -237,7 +237,6 @@ nav {
 }
 
 
-
 /* Portfolio */
 .filters {
    display: flex;
@@ -257,7 +256,7 @@ nav {
    color: var(--accent-color);
    background: #F4F4FD;
    padding: 12px 24px;
-   min-height: 48px;
+   max-height: 48px;
    border: 1px solid #E7E9FC;
    border-radius: 4px;
    cursor: pointer;
@@ -290,7 +289,6 @@ nav {
    border: 1px solid #E7E9FC;
    border-top: none;
 }
-
 
 
 /* Footer */
